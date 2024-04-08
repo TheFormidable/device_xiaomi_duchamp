@@ -295,6 +295,10 @@ ro.vendor.mtk_telephony_add_on_policy=0
 ro.vendor.vodata_support=1
 ro.vendor.vt_hevc_support=1
 
+# HWUI
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+
 # Media
 debug.mediatek.disp_decompress=1
 debug.stagefright.c2inputsurface=-1
