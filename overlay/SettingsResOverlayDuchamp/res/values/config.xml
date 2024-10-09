@@ -8,6 +8,11 @@
 
     <!-- Whether to show Smooth Display feature in Settings Options -->
     <bool name="config_show_smooth_display">true</bool>
+	
+	<!--DerpFest Maintainer-->
+    <string name="maintainer_name">TheFormidable</string>
+    <string name="maintainer_telegram">https://t.me/TheFormidable</string>
+  
 
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">90</integer>
