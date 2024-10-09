@@ -1,0 +1,38 @@
+[
+    {
+        "remote": "github",
+        "repository": "mt6897-devs/vendor_xiaomi_duchamp",
+        "branch": "main",
+        "target_path": "vendor/xiaomi/duchamp"
+    },
+    {
+        "remote": "github",
+        "repository": "mt6897-devs/kernel_xiaomi_mt6897",
+        "branch": "main",
+        "target_path": "kernel/xiaomi/mt6897"
+    },
+    {
+        "remote": "github",
+        "repository": "mt6897-devs/kernel_xiaomi_mt6897_modules",
+        "branch": "main",
+        "target_path": "kernel/xiaomi/mt6897_modules"
+    },
+    {
+        "remote": "github",
+        "repository": "mt6897-devs/hardware_xiaomi",
+        "branch": "main",
+        "target_path": "hardware/xiaomi"
+    },
+    {
+        "remote": "github",
+        "repository": "mt6897-devs/hardware_mediatek",
+        "branch": "main",
+        "target_path": "hardware/mediatek"
+    },
+    {
+        "remote": "github",
+        "repository": "mt6897-devs/ImsService",
+        "branch": "main",
+        "target_path": "vendor/mediatek/ims"
+    }
+]

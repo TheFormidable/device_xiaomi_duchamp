@@ -23,6 +23,6 @@ android_app {
         "androidx.compose.material3_material3",
         "androidx.compose.runtime_runtime",
         "androidx.preference_preference",
-        "org.derpos.settings.resources",
+        "org.lineageos.settings.resources",
     ],
 }
