@@ -8,11 +8,6 @@
 
     <!-- Whether to show Smooth Display feature in Settings Options -->
     <bool name="config_show_smooth_display">true</bool>
-	
-	<!--DerpFest Maintainer-->
-    <string name="maintainer_name">TheFormidable</string>
-    <string name="maintainer_telegram">https://t.me/TheFormidable</string>
-  
 
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">90</integer>
@@ -32,4 +27,14 @@
          should be either LOW (1) or HIGH (3).
     -->
     <integer name="config_vibration_supported_intensity_levels">3</integer>
+
+    <!-- Show battery cycle count -->
+    <bool name="config_show_battery_cycle_count" translatable="false">true</bool>
+	
+	<!--DerpFest Maintainer-->
+    <string name="maintainer_name">TheFormidable</string>
+    <string name="maintainer_telegram">https://t.me/TheFormidable</string>
+  
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
 </resources>

@@ -270,8 +270,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-   android.hardware.sensors-service.xiaomi-multihal \
-   sensors.xiaomi.v2
+   android.hardware.sensors-service.multihal
 
 PRODUCT_PACKAGES += \
    sensors.dynamic_sensor_hal
@@ -301,6 +300,10 @@ PRODUCT_COPY_FILES += \
 # Touch
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.xiaomi
+
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
 
 # USB
 $(call soong_config_set,android_hardware_mediatek_usb,audio_accessory_supported,true)
