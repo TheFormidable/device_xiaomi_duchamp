@@ -12,6 +12,11 @@
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">90</integer>
 
+	<!--DerpFest Maintainer-->
+    <string name="maintainer_name">TheFormidable</string>
+    <string name="maintainer_telegram">https://t.me/TheFormidable</string>
+  
+
     <!-- The number of vibration intensity levels supported by the device.
          Note that this should correspond to the ability to vary the vibration amplitude, with
          enough dynamic range to have at least as many distinct intensity levels as defined here.

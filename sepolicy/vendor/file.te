@@ -1,0 +1,10 @@
+# sysfs
+type sysfs_therm, fs_type, sysfs_type;
+type sysfs_power_supply, file_type, sysfs_type;
+
+# firmware
+type persist_file, file_type;
+type persist_data_file, file_type;
+
+# domains
+type thermal_core_data_file, domain;
